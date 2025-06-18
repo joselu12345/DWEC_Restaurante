@@ -2,6 +2,8 @@ import { useShoppingCart } from "../hooks";
 import dataProducts from "../data.json";
 import Button from "../layouts/Button";
 
+// provando comentario
+
 export default function ProductList() {
   const { products, addProduct } = useShoppingCart();
 
